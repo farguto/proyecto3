@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css\footers.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title> Desarrollo web con Bootstrap</title>
+  </head>
+  <body>
+    <header id="header2" class="p-3 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+  
+          <ul  class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 text-secondary">Inicio</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Servicios</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Precios</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Preguntas frecuentes</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Contacto</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Search">
+          </form>
+  
+         
+            <form method="get" action="/signin.html">
+              <button class="btn btn-outline-primary me-2" type="submit">Login</button>
+             </form>
+            <br>
+            <form method="get" action="/index.html">
+              <button class="btn btn-primary" type="submit">Registro</button>
+             </form>
+           
+         
+          </div>
+      </div>
+    </header>
+
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="/css/carousel.css" rel="stylesheet">
+  </head>
+ 
+  
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video loop  autoplay muted>
+          <source src="videos/video4.mp4" type="video/mp4">
+          
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1> Los datos son el nuevo petróleo </h1>
+            <p> Analizamos datos que generan valor en su empresa</p>
+            <p><a class="btn btn-lg btn-primary" href="#"> Consultar</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video loop  autoplay muted>
+          <source src="videos/video6.mp4" type="video/mp4">
+          
+          Your browser does not support the video tag.
+        </video>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1> Trabajo en equipo </h1>
+            <p> Cuente con el respaldo de nuestros mejores profesionales, comprometidos en brindar un servicio de excelencia. </p>
+            <p><a class="btn btn-lg btn-primary" href="#"> Saber más </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video loop autoplay muted>
+          <source src="videos/video5.mp4" type="video/mp4">
+          
+          Your browser does not support the video tag.
+        </video>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1> Diseños a medida </h1>
+            <p> Desarrollos teconlógicos a medida de sus necesidades. </p>
+            <p><a class="btn btn-lg btn-primary" href="#"> Contacto </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" id="head">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="images/img1.jpg" alt="Chicago" class="bd-placeholder-img rounded-circle" width="240" height="240">
+        <br>
+        <br>
+        <br>
+        <h2>Los datos son el nuevo petróleo </h2>
+        <p> Analizamos datos que generan valor en su empresa</p>
+        <p><a class="btn btn-primary" href="#"> Saber más &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="images/img2.jpg" alt="Chicago" class="bd-placeholder-img rounded-circle" width="240" height="240">
+        <br>
+        <br>
+        <br>
+        <h2>Diseños a medida </h2>
+        <p> Desarrollos teconlógicos a medida de sus necesidades.</p>
+        <p><a class="btn btn-primary" href="#"> Solicitar presupuesto  &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+     
+        <img src="images/img3.jpg" alt="Chicago" class="bd-placeholder-img rounded-circle" width="240" height="240">
+        <br>
+        <br>
+        <br>
+
+        <h2>Trabajo en equipo </h2>
+        <p>Cuente con el respaldo de nuestros mejores profesionales, comprometidos en brindar un servicio de excelencia.</p>
+        <p><a class="btn btn-primary" href="#"> Contacto &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"> Investigación y análisis del problema. <span class="text-muted"> Planficación estratégica.</span></h2>
+        <p class="lead"> Nos enfocamos en resolver sus necesidades de negocio.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/img1.jpg" alt="Chicago" class="d-block w-100">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"> Desarrollamos código. <span class="text-muted">  Para web y análisis de datos.</span></h2>
+        <p class="lead"> Contamos con 10 años de experiencia en el negocio.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="images/img2.jpg" alt="Chicago" class="d-block w-100">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"> Desarrollo de Tableros de Control  <span class="text-muted"> Dashboards analíticos.</span></h2>
+        <p class="lead"> Información clave para la toma de decisiones estratégicas.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/img3.jpg" alt="Chicago" class="d-block w-100">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+  
+
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#"> Volver al inicio</a></p>
+  
+
+
+  
+  <div class="col-2">
+  
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Servicios</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Precios</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas frecuentes</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
+    </ul>
+  </div>
+
+  
+
+  <div class="col-4 offset-1" id="foot">
+    <form>
+      <h5> Newsletter</h5>
+      <p> Enterate de las novedades y ofertas.</p>
+      <div class="d-flex w-100 gap-2">
+        <label for="newsletter1" class="visually-hidden">Email address</label>
+        <input id="newsletter1" type="text" class="form-control" placeholder="Correo electrónico">
+        <button class="btn btn-primary" type="button">Suscribir</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="d-flex justify-content-between py-4 my-4 border-top">
+  <p>&copy; 2022 Federico Arguto &middot; 
+  <ul class="list-unstyled d-flex">
+    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+  </ul>
+</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
+
